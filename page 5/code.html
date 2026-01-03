@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cart Summary</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#2b6cee",
+                "background-light": "#f6f6f8",
+                "background-dark": "#101622",
+                "surface-dark": "#1a2233",
+                "surface-light": "#ffffff",
+              },
+              fontFamily: {
+                "display": ["Lexend", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+            },
+          },
+        }
+      </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-filled {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display antialiased text-gray-900 dark:text-white">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden pb-32">
+<div class="sticky top-0 z-50 flex items-center bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm p-4 justify-between border-b border-gray-200 dark:border-gray-800">
+<div class="text-gray-900 dark:text-white flex size-12 shrink-0 items-center justify-center cursor-pointer rounded-full hover:bg-gray-200 dark:hover:bg-surface-dark transition-colors">
+<span class="material-symbols-outlined">arrow_back</span>
+</div>
+<h2 class="text-gray-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">My Cart</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex size-12 cursor-pointer items-center justify-center overflow-hidden rounded-full hover:bg-gray-200 dark:hover:bg-surface-dark transition-colors text-gray-900 dark:text-white">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</div>
+</div>
+<div class="px-4 py-6 w-full max-w-2xl mx-auto">
+<div class="space-y-4">
+<div class="bg-white dark:bg-surface-dark p-3 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm flex gap-4 items-start relative overflow-hidden group">
+<div class="shrink-0 w-28 aspect-video bg-gray-900 rounded-lg bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAjvoNiO7uVukvYTUs-dGsC_z5iHfkbLSk_QGboQDphvvfg8psLRetLV1n6kvowjC_pRV60_6UiO-aU0LJTzC6QKxB-PU__4Zsnlml3kmN02yr2021l9hHT6om1ax0hvhl26RE0LV8kF-2eIeVJQpQ2k11C-Mq3T6wtYmW66_cjNur1F58M6HMU6A7ghsX_MLtFZdEeZO17BdoZ0Dl-_uMJd2nqy_YLQ2TGtAVNTlfqDVHguMChV8teAevRfusHLbv-JXyS3Ufkcgbr");'></div>
+<div class="flex flex-col flex-1 min-w-0 pr-8">
+<h3 class="text-gray-900 dark:text-white font-bold text-sm leading-snug line-clamp-2 mb-1">Mastering UI/UX Design with Figma</h3>
+<div class="flex items-center gap-1.5 mb-3">
+<div class="bg-center bg-no-repeat bg-cover rounded-full h-4 w-4 ring-1 ring-gray-200 dark:ring-gray-700" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAjiDLQgF9pWTcqpVikB-4wnDA0xow7hNOWclYUCgdT3Tvx7RL2mD11HEF895APOZN7AdvjRZtSgj54J-vYT4WbOQuOxuccMTxB2wPuJqrPkaIRuc0liBhEIl3EhJt015YK8OamxTHY3o3wDyntOoBrzUaGKM5AJMPRL6gTZzQAbAu9hmteInklKAGIMcMWMRkLrWiyN2M4j2SirCE6BYlPb58E_77XSFllMGIoc9Mi-fTbDHD9ly98KYFVaeTvkvX9eUe1rfMNfOKE");'></div>
+<p class="text-gray-500 dark:text-gray-400 text-xs truncate">Sarah Jenkins</p>
+</div>
+<div class="mt-auto flex items-baseline gap-2">
+<span class="text-primary font-bold text-lg">$49.99</span>
+<span class="text-gray-400 text-xs line-through">$199.99</span>
+</div>
+</div>
+<button class="absolute top-3 right-3 text-gray-400 hover:text-red-500 transition-colors p-1">
+<span class="material-symbols-outlined text-xl">delete</span>
+</button>
+</div>
+</div>
+<div class="mt-8">
+<label class="block text-sm font-semibold text-gray-900 dark:text-white mb-2 ml-1">Discount Code</label>
+<div class="flex gap-2">
+<div class="relative flex-1">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-gray-400 text-xl">sell</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-3 border border-gray-200 dark:border-gray-700 rounded-xl leading-5 bg-white dark:bg-surface-dark text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary sm:text-sm shadow-sm" placeholder="Enter promo code" type="text"/>
+</div>
+<button class="px-5 py-2.5 bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold rounded-xl text-sm hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors shadow-sm">
+                    Apply
+                </button>
+</div>
+</div>
+<div class="mt-8 bg-white dark:bg-surface-dark rounded-2xl p-5 border border-gray-200 dark:border-gray-800 shadow-sm">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-4">Summary</h3>
+<div class="space-y-3">
+<div class="flex justify-between text-sm">
+<span class="text-gray-500 dark:text-gray-400">Subtotal</span>
+<span class="text-gray-900 dark:text-white font-medium">$199.99</span>
+</div>
+<div class="flex justify-between text-sm">
+<span class="text-gray-500 dark:text-gray-400">Discount (75% off)</span>
+<span class="text-green-500 font-medium">-$150.00</span>
+</div>
+<div class="flex justify-between text-sm">
+<span class="text-gray-500 dark:text-gray-400">Tax (Estimated)</span>
+<span class="text-gray-900 dark:text-white font-medium">$0.00</span>
+</div>
+</div>
+<div class="my-4 border-t border-dashed border-gray-200 dark:border-gray-700"></div>
+<div class="flex justify-between items-end">
+<span class="text-gray-900 dark:text-white font-bold text-lg">Total</span>
+<span class="text-primary font-bold text-2xl">$49.99</span>
+</div>
+</div>
+<div class="mt-6 flex items-center justify-center gap-2 text-gray-400 dark:text-gray-500">
+<span class="material-symbols-outlined text-sm">lock</span>
+<span class="text-xs font-medium">Secure Checkout</span>
+</div>
+</div>
+<div class="fixed bottom-0 left-0 right-0 bg-white dark:bg-background-dark border-t border-gray-200 dark:border-gray-800 p-4 safe-area-bottom z-50 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
+<div class="max-w-2xl mx-auto">
+<button class="w-full bg-primary hover:bg-blue-600 text-white font-bold h-14 rounded-xl shadow-lg shadow-blue-500/30 transition-all active:scale-[0.98] flex items-center justify-center gap-2 text-lg">
+                Proceed to Checkout
+                <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+
+</body></html>
